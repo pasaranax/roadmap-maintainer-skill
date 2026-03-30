@@ -1,0 +1,4 @@
+interface:
+  display_name: "Roadmap Maintainer"
+  short_description: "Roadmap workflow for non-trivial tasks"
+  default_prompt: "Use $roadmap-maintainer for any non-trivial user request that deserves its own roadmap slice. Ask for the user's project brief before bootstrap when `doc/HUMAN_BRIEF.md` is missing, save that brief verbatim in `doc/HUMAN_BRIEF.md`, initialize only the roadmap scaffold without inventing phases, derive the first real architecture and ordered slices, and add the short trigger rule to `AGENTS.md` or `CLAUDE.md`."
